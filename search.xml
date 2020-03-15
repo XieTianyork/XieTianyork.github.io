@@ -3,7 +3,26 @@
   <entry>
     <title>关于网站</title>
     <url>/2020/aboutwebsite/</url>
-    <content><![CDATA[<a id="more"></a>
+    <content><![CDATA[<h1 id="建网站的过程"><a href="#建网站的过程" class="headerlink" title="建网站的过程"></a>建网站的过程</h1><p>花了两三个晚上终于把这个网站给配置好了，采用的Hexo+GithubPage方案，以及<a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank" rel="noopener">Ayer</a>主题，非常感谢Ayer主题的作者。</p>
+<a id="more"></a>
+<p>选主题花了很久时间，很少有中意的，一开始选择了<a href="https://kaiiiz.github.io/hexo-theme-book-demo/" target="_blank" rel="noopener">theme-book</a>的简洁，但是发现公式显示有很大问题，折腾了很久都没完全解决，作者推荐的是@iktakahiro/markdown-it-katex，虽然快但是多行公式解析有问题，主题中的解析会影响到公式部分，尝试了hexo-math、hexo-renderer-kramed、hexo-renderer-marked、hexo-renderer-mathjax、markdown-it-katex等多种插件，参考了众多过时的教程、官方文档和github issue，最后认定是主题本身的问题，由于前端知识太有限不敢乱改就放弃了，决定一定要选一个文档写得好、用户多、功能实现多、最好作者自己也用很多公式的主题，比如鼎鼎大名的Next，但最后我发现了Ayer，觉得非常不错，作者非常贴心。</p>
+<p>最后我就将Ayer原封不动搬下来了，但由于Ayer本身用的hexo-renderer-marked，对多行公式处理还是有问题，我换成hexo-renderer-kramed后就没问题了，然后还修改了一下Mathjax.ejs来支持自动编号，不过我一般不用自动序号而是指定<code>\tag{}</code></p>
+<p>具体可以参考我修改过的<a href="https://qz4869.github.io/Ayer中文说明/">Ayer中文说明</a></p>
+<h1 id="建站目的"><a href="#建站目的" class="headerlink" title="建站目的"></a>建站目的</h1><p>建站主要是记录和整理，由于记性不好，比如数理笔记、各种语言的语法、各种小程序的使用等，我经常会写一些小文档来记录整理，但是放电脑里没有形成统一的路径，由于不同电脑、系统、硬盘备份等，经常会出现各种副本，不便查找和更新（虽然有everything和github），以及分享。</p>
+<p>我一直希望能够对本科物理基础知识有一个比较系统的整理，绝大多数教材并不让我满意，我不喜欢过分强调本科物理主要是培养物理图像、物理直觉的说法，比如费曼的教材就并不适合真的初学者，我更欣赏有清晰数学结构的物理，也就是用来解释物理的数学模型（包括基本的理论模型和具体问题的模型），最简单的要求就是能够把话说清楚，然后学生们在此之上建立和修正自己的物理直觉。所以，我想在这里边复习边整理出一个简洁系统的关于本科水平物理的笔记</p>
+<p>网站还用于分享一些不错的东西，主要是好用的软件和网站。</p>
+<h1 id="预期网站内容"><a href="#预期网站内容" class="headerlink" title="预期网站内容"></a>预期网站内容</h1><p>内容会按目录分如下几大类（如<code>物理</code>），并且用标签细分成小类，尽量呈树状结构（如<code>基础物理</code>+<code>热学与统计力学</code>）。</p>
+<h2 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h2><p>主要是基础物理系列，包括<code>力学与分析力学</code>、<code>热学与统计力学</code>、<code>电磁学与电动力学</code>，重点都会放在后半部分，主要的是建立适合初学者的严谨框架而不是解题。量子力学内容太多，暂时不打算写，而且估计大家都会学很多遍，推荐Griffiths的《量子力学概论》、张永德的《量子力学》和王正行《简明量子力学》。</p>
+<p>其他的还会包括之后的学习和整理。</p>
+<h2 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h2><p>主要是整理出一些方便查阅的文档，会涉及到Linux、C++、Python、Latex及与之相关的，还包括之后可能会涉及到的硬件相关的。</p>
+<p>由于不是专业，主要追求实用，而且只关心与当前相关度高、对自己帮助较大的（如Mathematica现在就不会深入使用了）。</p>
+<h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>没学过数学专业的大部分内容，所以只会写物理学习过程中的数学，除非以后真的有时间和兴趣重新学本科数学（数学专业的书都定义非常多名词，得从头看才觉得舒服，而写给物理或工科方面的数学书经常可以跳着看）。</p>
+<p>学过太久的，内容太多的可能我也懒得写了，比如微积分、高等代数、数理方法，暂时肯定会写的可能就是面向物理的群论、拓扑和微分几何，以及应用相关的，如最优估计理论、各种算法（如FFT）相关的内容</p>
+<p>另外，由于有对数学趣题的爱好，还打算有兴致的时候挑一些看上去较简洁的趣题来思考并发上来，所以会有一个<code>趣题</code>的标签。以前也经常找趣题相关的网站，但是质量好的不多，印象最深的有<a href="http://www.matrix67.com/" target="_blank" rel="noopener">matrix67的博客</a>和<a href="https://www.brand.site.co.il/riddles/" target="_blank" rel="noopener">Using your Head is Permitted</a></p>
+<h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><p>主要是一些不错的小软件推荐和相应的使用文档（如果觉得有必要的话），会以Windows系统为主，也可能会有Android和Linux下的，首选绿色、开源且体积小的软件，如Everything和Blender</p>
+<h2 id="收藏"><a href="#收藏" class="headerlink" title="收藏"></a>收藏</h2><p>放收藏的各种不错的网站、各类资源。</p>
+<h2 id="读书"><a href="#读书" class="headerlink" title="读书"></a>读书</h2><p>以后争取看了一本书后做一些记录，主要是非学术类的，会以通识类为主。</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>除了能方便放入上面几个目录内的其他内容</p>
 ]]></content>
       <categories>
         <category>建站</category>
