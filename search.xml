@@ -2559,9 +2559,13 @@ h2 {
 </style>  
 
 
-
+<details class="details-2">
+<summary tabindex="-1"><a href="javascript:">这是示例</a></summary>
+[toc]
+</details>
 
 <p> <span id="jump0">  </span></p>
+<p>[toc]</p>
 <h1 id="建站过程"><a href="#建站过程" class="headerlink" title="建站过程"></a>建站过程</h1><p>从本科期间就一直计划着建立个人博客，但是碍于时间和精力的有限，一直拖到本科毕业都没有建成网站。而这次疫情期间，我在4月初前往长沙找QZ同学交流。在游览岳麓山的途中，我了解到他也正在建立个人博客。所以非常巧合的，我便向他请教了相关细节，并在他的帮助下建成了现下这个网站。再次声明，非常感谢QZ同学给予的帮助与全程的细节讲解和指导。想了解建立网站具体过程的朋友可以在如下网站找到途径：</p>
 <ul>
 <li><a href="https://qz4869.github.io/" target="_blank" rel="noopener">QZ同学的Blog</a></li>

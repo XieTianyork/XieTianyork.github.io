@@ -32,6 +32,7 @@
 </html>
 
 <body>
+
   <div id="app">
     <main class="content">
       <section class="outer">
@@ -82,7 +83,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1.1k字</span>
+            <span class="post-count">1.2k字</span>
         </span>
     </span>
 
@@ -153,9 +154,13 @@ h2 {
 </style>  
 
 
-
+<details class="details-2">
+<summary tabindex="-1"><a href="javascript:">这是示例</a></summary>
+[toc]
+</details>
 
 <p> <span id="jump0">  </span></p>
+<p>[toc]</p>
 <h1 id="建站过程"><a href="#建站过程" class="headerlink" title="建站过程"></a>建站过程</h1><p>从本科期间就一直计划着建立个人博客，但是碍于时间和精力的有限，一直拖到本科毕业都没有建成网站。而这次疫情期间，我在4月初前往长沙找QZ同学交流。在游览岳麓山的途中，我了解到他也正在建立个人博客。所以非常巧合的，我便向他请教了相关细节，并在他的帮助下建成了现下这个网站。再次声明，非常感谢QZ同学给予的帮助与全程的细节讲解和指导。想了解建立网站具体过程的朋友可以在如下网站找到途径：</p>
 <ul>
 <li><a href="https://qz4869.github.io/" target="_blank" rel="noopener">QZ同学的Blog</a></li>
@@ -410,6 +415,10 @@ h2 {
       <a class="nav-item-link" href="/tags">标签</a>
     </li>
     
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
   </ul>
 </nav>
 <nav class="navbar navbar-bottom">
@@ -658,26 +667,51 @@ h2 {
 
 <script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
 
-
-
-    
-    <div id="music">
-    
-    
-    
-    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=22688502&auto=1&height=32"></iframe>
-</div>
-
-<style>
-    #music {
-        position: fixed;
-        right: 15px;
-        bottom: 0;
-        z-index: 998;
-    }
-</style>
-    
+ 
+ body.dark {background: #2f3742;}
+body.dark .aplayer{background: #2f3742!important;}
+body.dark img {
+  filter: brightness(50%);
+} 
+  
+ if (localStorage.getItem('dark') === '1') {
+  document.body.classList.add('dark');
+} else if (new Date().getHours() >= 22 || new Date().getHours() < 7) {
+  document.body.classList.add('dark');
+} else if (matchMedia('(prefers-color-scheme: dark)').matches) {
+  document.body.classList.add('dark');
+}   
+#xm {
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 0;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(3px);
+}
+#xm:hover {
+  transform: translateY(0);
+}
+#xm img {
+  width: 50px;
+}  
+ function switchNightMode() {
+  var body = document.body;
+  if(body.classList.contains('dark')){
+    document.body.classList.remove('dark');
+    localStorage.setItem('dark','0');
+  } else {
+    document.body.classList.add('dark');
+    localStorage.setItem('dark','1');
+  }
+}
+var xm = document.getElementById("xm");
+xm.onclick = switchNightMode;          
+ if (theme.music&&theme.music.enable){ 
+ partial('_partial/music') 
+} 
   </div>
 </body>
 
