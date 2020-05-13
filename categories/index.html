@@ -44,7 +44,7 @@
          
           <a class="category-list-link" href="/categories/其他/" title="其他">
             <li class="category-list-item">
-            其他<i>2</i>
+            其他<i>1</i>
             </li>
           </a>
         
@@ -356,50 +356,6 @@
 <script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
 
  
- body.dark {background: #2f3742;}
-body.dark .aplayer{background: #2f3742!important;}
-body.dark img {
-  filter: brightness(50%);
-} 
-  
- if (localStorage.getItem('dark') === '1') {
-  document.body.classList.add('dark');
-} else if (new Date().getHours() >= 22 || new Date().getHours() < 7) {
-  document.body.classList.add('dark');
-} else if (matchMedia('(prefers-color-scheme: dark)').matches) {
-  document.body.classList.add('dark');
-}   
-#xm {
-  cursor: pointer;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  font-size: 0;
-  transition: all 0.3s ease-in-out;
-  transform: translateY(3px);
-}
-#xm:hover {
-  transform: translateY(0);
-}
-#xm img {
-  width: 50px;
-}  
- function switchNightMode() {
-  var body = document.body;
-  if(body.classList.contains('dark')){
-    document.body.classList.remove('dark');
-    localStorage.setItem('dark','0');
-  } else {
-    document.body.classList.add('dark');
-    localStorage.setItem('dark','1');
-  }
-}
-var xm = document.getElementById("xm");
-xm.onclick = switchNightMode;          
- if (theme.music&&theme.music.enable){ 
- partial('_partial/music') 
-} 
   </div>
 </body>
 
