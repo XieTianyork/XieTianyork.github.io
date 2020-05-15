@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xietianyork.github.io/"/>
-  <updated>2020-05-14T13:37:46.431Z</updated>
+  <updated>2020-05-14T16:57:17.194Z</updated>
   <id>https://xietianyork.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xietianyork.github.io/2020/satphysics/"/>
     <id>https://xietianyork.github.io/2020/satphysics/</id>
     <published>2020-05-13T16:12:19.000Z</published>
-    <updated>2020-05-14T13:37:46.431Z</updated>
+    <updated>2020-05-14T16:57:17.194Z</updated>
     
     <content type="html"><![CDATA[<style type="text/css">  p{ text-indent:2em;color:black}mybr{ text-indent:2em;color:black}h1 { font: bold 28px/1.5;color:black}h1 { font: bold 28px/1.5 "微软雅黑",Arial,verdana;color:black;}h2 {  margin-top: 50px;   margin-bottom: 30px;  white-space: large;   outline: none;  font-family: sans-serif;  line-height: 40px;  color: #232B2D;  border-left-width: 5px;  border-left-style: solid;  border-left-color: #232B2D;  background: white;}</style>  <p> <span id="jump0">  </span></p><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>在2018-2019年，我辅导了一位在美国求学的，很聪明的高中生。我辅导他的时候，他是物理零基础。而他又选修了最难的<strong>AP</strong> Physics C，因为他准备申请顶尖的美国高校。据我了解，一位零基础的入门学生想在短时间内学好Physics C的课程是非常具有挑战性的。于是我们开始了一段紧张又愉快的网络教学和家庭辅导的经历。</p><a id="more"></a><p>这篇博客的内容主要是，我在2018年11月辅导他SAT物理时的一次知识性总结。并且我结合网上的考试经验和我自身的经历，给了他一些准备物理考试的小技巧。我希望他能享受物理学习的过程。虽然考试是所有学生都要跨越的门槛，但是我认为考试成绩只是学习过程的副产物。当你真正想去学习一门学科时，你会发现获取并运用知识的乐趣，这才是学习过程的丰厚产物。</p><p>现在我们成了非常好的朋友，我偶尔为他解决物理相关的问题，他也偶尔教我一些新魔术。他最近也发表了一篇数学应用于魔术的文章。</p><h1 id="SAT物理知识总结"><a href="#SAT物理知识总结" class="headerlink" title="SAT物理知识总结"></a>SAT物理知识总结</h1><div class="row">    <embed src="./NoteForPhy.pdf" width="100%" height="550" type="application/pdf"></div><p>最后两章的内容，由于内容繁杂且精力有限就没进行总结。</p><h1 id="学习网站"><a href="#学习网站" class="headerlink" title="学习网站"></a>学习网站</h1><p>最后附上一些供个人自学和练习的网站。</p><ul><li><a href="https://collegereadiness.collegeboard.org/sat-subject-tests/subjects/science/physics" target="_blank" rel="noopener">CollegeBoard-美国大学理事会</a>：可以获取关于SAT考试和AP考试的信息，以及获得辅导练习的资源。</li><li><a href="https://www.khanacademy.org/" target="_blank" rel="noopener">可汗学院</a>: 可以免费学习所有科目的课程，并且每节课都能获得针对性的知识训练。</li></ul><p>如果总结里有任何错误，请发邮件到我的邮箱xiety14@gmail.com。欢迎交流，感谢阅读。</p><p><a href="#jump0">回到开头</a></p>]]></content>
     
@@ -67,7 +67,7 @@ h2 {
     </summary>
     
     
-      <category term="其他" scheme="https://xietianyork.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="物理" scheme="https://xietianyork.github.io/categories/%E7%89%A9%E7%90%86/"/>
     
     
       <category term="教学" scheme="https://xietianyork.github.io/tags/%E6%95%99%E5%AD%A6/"/>
