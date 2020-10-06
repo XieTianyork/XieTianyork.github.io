@@ -45,7 +45,7 @@ h2 {
 <p align="right">---《亲密爱人》</p>
 
 </blockquote>
-<center>
+<p><center>
     <img style="border-radius: 0.8em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://pic.downk.cc/item/5f7bc6e8160a154a67d6f29d.jpg" width="650">
@@ -54,15 +54,14 @@ h2 {
     display: inline-block;
     color: #999;
     padding: 2px;">《新婚快乐》</div>
-</center>
+</center><br>  <a id="more"></a> </p>
 
-
-        <div id="aplayer-ZDjYXHjp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-uAYyqwih" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-ZDjYXHjp"),
+            element: document.getElementById("aplayer-uAYyqwih"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -78,17 +77,18 @@ h2 {
           window.aplayers.push(ap);
         </script>
 <p> 2020年10月4日，早晨6点30分左右，迎接新娘的婚车出发了。</p>
-<p> 新郎满怀期待，来到酒店开启了“接新娘”的喜庆活动。全程四位伴郎竭尽全力，帮助新郎披荆斩棘，克服了新娘设置的层层关卡。期间，新郎用红包打开了大门，再倾尽所有红包打开了房门。在完成了跳绳挑战和画口红挑战后，新郎“艰难”地列出了新娘的10个优点，找到了婚鞋并成功为新娘带上。至此，“接亲”活动圆满结束。我想这是属于新郎和新娘的时刻，也将成为所有参与者的幸福回忆。<br>  <a id="more"></a><br> 中午时分，中科哥哥作为主持人，为大家正式开启婚礼仪式。而新郎，熊威，这时候发表了些感言，唱着歌缓缓地迈向了新娘和岳父。我在台下听着歌，思绪万千，那熟悉的声音把我带回了我所了解的威威，一位爱唱歌的调皮男生。</p>
+<p> 新郎满怀期待，来到酒店开启了“接新娘”的喜庆活动。全程四位伴郎竭尽全力，帮助新郎披荆斩棘，克服了新娘设置的层层关卡。期间，新郎用红包打开了大门，再倾尽所有红包打开了房门。在完成了跳绳挑战和画口红挑战后，新郎“艰难”地列出了新娘的10个优点，找到了婚鞋并成功为新娘带上。至此，“接亲”活动圆满结束。我想这是属于新郎和新娘的时刻，也将成为所有参与者的幸福回忆。</p>
+<p> 中午时分，中科哥哥作为主持人，为大家正式开启婚礼仪式。而新郎，熊威，这时候发表了些感言，唱着歌缓缓地迈向了新娘和岳父。我在台下听着歌，思绪万千，那熟悉的声音把我带回了我所了解的威威，一位爱唱歌的调皮男生。</p>
 <blockquote>
 <p>   <br/></p>
 </blockquote>
 <h1 id="爱唱歌的男孩"><a href="#爱唱歌的男孩" class="headerlink" title="爱唱歌的男孩"></a>爱唱歌的男孩</h1>
-        <div id="aplayer-zEmgwTff" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-aJQokalK" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-zEmgwTff"),
+            element: document.getElementById("aplayer-aJQokalK"),
             narrow: false,
             autoplay: false,
             showlrc: false,
